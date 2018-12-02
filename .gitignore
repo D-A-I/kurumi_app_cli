@@ -1,0 +1,10 @@
+# mac用の隠しファイルを除外
+.DS_Store
+
+# バイナリは管理しない
+bin/
+obj/
+
+# 設定ファイルは管理しない
+appsettings.json
+appsettings.*.json
