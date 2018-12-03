@@ -63,7 +63,7 @@ namespace AppModels.Repository {
         }
         public void Update() => this._dbContext.SaveChangesAsync();
         public void Delete(TaskOfGroup item) {
-            throw new NotSupportedException(); // 未定義のメソッド
+            throw new NotSupportedException(); // 未定義のメソッドは明示的な例外を返す
         }
     }
 }
