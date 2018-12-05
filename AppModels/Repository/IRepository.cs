@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace AppModels.Repository {
     public interface IRepository<T> {
-        IEnumerable<T> GetByGroupId(int groupId);
+        T GetByKey(int id);
         IEnumerable<T> GetAll();
         void Add(T item);
         void Update();
