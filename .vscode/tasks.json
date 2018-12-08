@@ -2,14 +2,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/AppCli/AppCli.csproj"
-            ],
-            "problemMatcher": "$msCompile"
+            "label": "run tests",
+            "type": "shell",
+            "command": "cd AppModels.Tests/ && dotnet test"
         }
     ]
 }

@@ -74,7 +74,7 @@ namespace AppModels.Repository {
             var task = new Tasks() {
                 TaskId = item.TaskId,
                 GroupId = item.GroupId,
-                Status = item.GroupId,
+                Status = item.Status,
                 Content = item.Content,
                 Pic = item.Pic,
                 Period = item.Period
