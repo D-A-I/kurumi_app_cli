@@ -71,6 +71,7 @@ namespace AppModels.Tests {
                 context.Tasks.Add(data2);
                 context.SaveChanges();
             }
+            
             // GetAllの確認
             using(var context = new kurumi.kurumiContext(options)) {
                 var repo = new AdorerRepository(context);
